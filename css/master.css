@@ -1590,3 +1590,8 @@
     padding: 0;
   }
 }
+@media (max-width:768px) {
+  .landing {
+    height: 120vh;
+  }
+}
