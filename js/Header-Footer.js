@@ -25,6 +25,7 @@ mainHeader = () => {
     <li class="megaBtn">Pages 
       <ul class="megaMenu">
         <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="sign-up.html">Sign up</a></li>
         <li><a href="blog-grid.html">Blog Grid</a></li>
         <li><a href="blog-single.html">Blog Sidebar</a></li>
         <li><a href="mail-success.html">Mail Success</a></li>

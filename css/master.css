@@ -953,7 +953,7 @@
 
 
 .sign-In .container {
-  width: 38%;
+  width: 33%;
 }
 .sign-In .reset {
   display: flex;
@@ -1394,14 +1394,30 @@
   }
 }
 @media (max-width:992px) {
-  .header .btns .sign-in,
-  .header .btns .sign-up,
   .landing .bigBlue,
   .landing .bigOrange,
   .landing .bink1,
   .landing .bink2,
   .landing .bink3 {
     display: none;
+  }
+  .checkbox {
+    background-color: #232625 !important;
+    color: white !important;
+  }
+  body.dark .header.sticky .checkbox {
+    background-color: white !important;
+    color: black !important;
+  }
+  .header .btns .sign-up {
+    background-color: var(--main-color) !important;
+    color: white !important;
+  }
+  .header .btns .sign-in {
+    color: black !important;
+  }
+  body.dark .btns .sign-in {
+    color: white !important;
   }
   .landing .container {
     flex-direction: column;
@@ -1491,6 +1507,10 @@
 }
 
 @media (max-width:768px) {
+  .sign-up,
+  .sign-in {
+    display: none;
+  }
   .landing .text h1 {
     font-size: 30px;
     font-weight: 600;
